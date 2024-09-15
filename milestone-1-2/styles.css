@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4b1b1;
+  }
+  
+  .main-heading{
+    text-align: center;
+    font-weight: bold;
+    color: #3498;
+    font-size: 50px;
+  }
+  
+  .resume-container {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(9, 159, 245, 0.822);
+  }
+  
+  .left-section, .right-section {
+    padding: 20px;
+  }
+  
+  .left-section {
+    background-color: #0a2638;
+    color: #f7f7f7;
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile h2 {
+    margin: 10px 0 5px;
+  }
+  
+  .profile p {
+    font-style: italic;
+  }
+  
+  .contact-info p ,li{
+    color: #f4f4f4;
+  }
+  .contact-info, .languages, .skills-summary {
+    margin-top: 20px;
+  }
+  
+  .right-section {
+    width: 65%;
+    background-color: rgb(140, 189, 219);
+  }
+  
+  .about, .experience, .education {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #0d80cc;
+  }
+  
+  p, ul {
+    color: #dbe0e7;
+    margin: 5px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  #toggle-skills {
+    margin: 20px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #toggle-skills:hover{
+    background-color:rgba(62, 80, 172, 0.533) ;
+  }
+
+  
